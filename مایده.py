@@ -261,6 +261,41 @@ print(nomre2.values())
 print(nomre2.items())
 #کلید اسم خودش میاره ولیو کلا ایتم کلش
 
+nomre = {"riazi":18,
+         "adabiat":20,
+         "porageram":20}
+print(nomre["riazi"],nomre["adabiat"])
+print(nomre)
+print(type(nomre))
+print(len(nomre))
+#ولیو ینی کل عدداشو میده
+print(nomre.items())
+print(nomre.keys())
+#کلیر پاک میکنه
+adad ={"list":[1,2,3,4],"list2":[5,6,7,8]}
+print(adad["list"][2])
+print(adad["list2"][3])
+#کنترل سی کپی میشه کنتری وی جای گذاری میشه
+my_list ={1 : ["mohsen","ali"],
+          2 : ["hasan","maedeh"]}
+print(my_list[1][0].upper())
+student = {"name":"ali",
+           "age":20 }
+print(student["name"])
+student["shahr"] = "ker"
+print(student)
+student.pop("age")
+print(student)
+del student["shahr"]
+print(student)
+print(len(student))
+
+
+
+
+
+
+
 
 
 
